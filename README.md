@@ -5,7 +5,7 @@ This project is a simple weather forecasting web application built with Vue.js f
 ## Technologies Used
 
 - **Frontend:** [Vue.js](https://vuejs.org/)
-- **Backend:** [Node.js](https://nodejs.org/)
+- **Backend:** [Node.js](https://nodejs.org/) with [Express.js](https://expressjs.com/)
 - **API:** [WeatherAPI](https://www.weatherapi.com/)
 
 ## Description
