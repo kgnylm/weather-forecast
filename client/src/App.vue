@@ -154,7 +154,7 @@ export default {
     },
     nowTime() {
       const today = this.response.finaldata.localtime;
-      const date = new Date(today.replace(/\s/, 'T'));
+      const date = new Date(today);
       const hour = date.getHours();
       const minute = date.getMinutes();
       const formattedMinute = minute < 10 ? "0" + minute : minute;
