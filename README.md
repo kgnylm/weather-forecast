@@ -1,16 +1,26 @@
 # Weather Forecast App
 
-This simple weather forecast application allows you to view weather information for a specific city or region. Users can obtain weather forecasts by entering the city or region name into the search box.
+This project is a simple weather forecasting web application built with Vue.js for the frontend and Node.js for the backend. It utilizes the WeatherAPI for weather data.
+
+## Technologies Used
+
+- **Frontend:** [Vue.js](https://vuejs.org/)
+- **Backend:** [Node.js](https://nodejs.org/)
+- **API:** [WeatherAPI](https://www.weatherapi.com/)
+
+## Description
+
+This web application allows users to search for weather information for a specific city or district. It provides current weather data including temperature, weather status, wind speed, and more. Additionally, it offers a 3-day weather forecast, including maximum and minimum temperatures.
 
 ## Features
 
-- View weather forecasts for a specific city or region.
-- Option to click the "Search" button or press the "Enter" key after entering the city or region name.
-- Display current weather information, maximum and minimum temperature, wind speed, feels-like temperature, and icons.
-- View weather forecasts for today, tomorrow, and the day after tomorrow.
+- Real-time weather information.
+- 3-day weather forecast.
+- Easy-to-use interface.
+- Responsive design for both desktop and mobile devices.
 
-## Usage
+## How to Use
 
-1. Launch the application or visit the website.
-2. Enter the city or region name in the search box.
-3. Click the "Search" button or press the "En
+1. Enter the name of the city or district you want to check the weather for in the search bar.
+2. Press the "Search" button or press "Enter" to retrieve weather information.
+3. The current weather data and the 3-day weather forecast will be displayed.
